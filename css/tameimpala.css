@@ -1,0 +1,114 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+html {
+  background: black;
+  overflow:scroll;
+}
+
+nav {
+  font-family: 'Bungee', cursive;
+  color: white;
+  margin-left: 200px;
+  margin-top:200px;
+}
+
+li {
+  list-style:none;
+}
+
+.smicons{
+padding-top:50px;
+padding-left:50px;
+display:grid;
+grid-template-columns: 3% 3% 3% 3%;
+grid-gap: 1em;
+}
+
+.logo img {
+  display: block;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+a {
+  decoration:none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+li a:hover {
+  color: #fc2403;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+/* Artist Info  */
+
+.parker img {
+  margin: 50px 10px 10px 50px;
+  width: 400px;
+}
+.jay img {
+  width: 150px;
+  margin: 1px 5px 1px 250px;
+}
+
+.cam img {
+  width: 150px;
+  margin: 1px 5px 1px 130px;
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+  color:white;
+  width: 600px;
+
+}
+
+.music img {
+  width:500px;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 100px;
+  grid-template-rows: 10% 90%;
+
+}
+
+.column1 {
+  grid-column: 1;
+    grid-row: 1;
+
+}
+
+.column2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.home img{
+  width: 50px;
+  position: fixed;
+  margin-left: 950px;
+}
